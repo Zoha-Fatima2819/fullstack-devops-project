@@ -11,15 +11,14 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Docker Compose Build'
+                echo 'Building application'
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'Deploy Application'
+                echo 'Deploying application'
             }
         }
-
     }
 }
